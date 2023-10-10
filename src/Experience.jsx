@@ -13,7 +13,6 @@ export default function Experience() {
   
   return (
     <>
-      
       <ambientLight intensity={ 0.5 } color={0xE1E1E1} /> 
       <pointLight distance={15} position={[0,2,0]} intensity={1}  color={'white'}/>
       <Bodega scale={1.5}/>

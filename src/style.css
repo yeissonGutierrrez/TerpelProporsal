@@ -64,7 +64,7 @@ body,
     margin-left: -120px;
     padding: 20px;
     margin-top: 30px;
-    text-align: justify;
+    text-align: start;
     animation: show 1.5s; 
 }
 

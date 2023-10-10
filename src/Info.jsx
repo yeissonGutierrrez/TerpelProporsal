@@ -1,7 +1,7 @@
 import { Html } from '@react-three/drei'
 import React, { useState } from 'react'
 
-export default function Info({show, setshow, position}) {
+export default function Info({show, setshow, position, title, text}) {
   return (
     <Html
     position={position}
@@ -15,17 +15,16 @@ export default function Info({show, setshow, position}) {
  }}
  onMouseEnter={() => setshow(true)} onMouseLeave={() => setshow(false)}
 >
-    <img className='infoImage' src="/Info.svg" alt="" />
+    <img className='infoImage' src="https://yeissongutierrrez.github.io/TerpelProporsal/Info.svg" alt="" />
     <div className='circle'></div>
     </div>
 
     {
       show &&
       <div className='modal' onMouseLeave={() => setshow(false)}>
-        <h3>Title</h3>
+        <h3>{title}</h3>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deserunt nam temporibus consequuntur nulla odit velit, quisquam possimus impedit quasi pariatur veritatis, enim nemo dignissimos, amet eaque exercitationem facilis reiciendis!
-
+        {text}
         </p>
       </div>
     }
