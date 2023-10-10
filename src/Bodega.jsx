@@ -11,7 +11,7 @@ import CustomMesh from "./CustomMesh";
 
 
 export function Bodega(props) {
-  const { nodes, materials } = useGLTF('./model3D/MDL_Env_Lubricantes.glb')
+  const { nodes, materials } = useGLTF('./model3D/almacen.glb.glb')
 
   const ref2 = useRef();
   const customMaterial = new THREE.MeshStandardMaterial({
@@ -55,4 +55,4 @@ export function Bodega(props) {
   )
 }
 
-useGLTF.preload('./model3D/MDL_Env_Lubricantes.glb')
+useGLTF.preload('./model3D/almacen.glb.glb')
