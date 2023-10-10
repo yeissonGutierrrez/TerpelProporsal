@@ -48,7 +48,6 @@ export function Bodega(props) {
       <mesh geometry={nodes.Mesh070.geometry} material={materials.MAT_Base_Madera} />
       <mesh geometry={nodes.Mesh070_1.geometry} material={nodes.Mesh070_1.material} />
       <mesh geometry={nodes.Mesh085.geometry} material={materials.MAT_Envase_Mobil} />
-      <mesh  />
       <mesh geometry={nodes.Mesh026.geometry} material={materials.MAT_Rampa} />
       <mesh geometry={nodes.Mesh026_1.geometry} material={materials.MAT_Caucho} />
     </group>
