@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://yeissongutierrrez.github.io/TerpelProporsal/",
+  "homepage": "https://yeissongutierrrez.github.io/TerpelProposal/",
   "devDependencies": {
     "@vitejs/plugin-react": "3.0",
     "gh-pages": "^6.0.0",

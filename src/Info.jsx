@@ -15,7 +15,7 @@ export default function Info({show, setshow, position, title, text}) {
  }}
  onMouseEnter={() => setshow(true)} onMouseLeave={() => setshow(false)}
 >
-    <img className='infoImage' src="https://yeissongutierrrez.github.io/TerpelProporsal/Info.svg" alt="" />
+    <img className='infoImage' src="https://yeissongutierrrez.github.io/TerpelProposal/Info.svg" alt="" />
     <div className='circle'></div>
     </div>
 
