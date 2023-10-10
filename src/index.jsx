@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.querySelector('#root'))
 
 root.render(
     <>
+        <img style={{position: 'fixed',  top: 0, left:20, zIndex: 100}} width={200} src="https://yeissongutierrrez.github.io/TerpelProposal/terpelLogo.png" alt="" />
        <Canvas 
             dpr={ [ 1, 2 ] }
             gl={{

@@ -25,7 +25,7 @@ export function Bodega(props) {
     <>
     <Selection>
       <EffectComposer multisampling={0} autoClear={false}>
-        <Outline blur visibleEdgeColor="WHITE" edgeStrength={100} width={1000} />
+        <Outline blur visibleEdgeColor="WHITE" edgeStrength={10} width={1000} />
       </EffectComposer>
         <CustomMesh {...props} infoPos={[4,4,-0.5]} InfoTitle='Equipo de monitoreo' InfoText='Analisis del producto' geometry={nodes.MDL_Etiquetado.geometry} material={materials.MAT_Etiquetado} />
         <CustomMesh {...props} infoPos={[10,30,-100.5]} InfoTitle='Tanques de bases' InfoText='Análisis en el tanque después del descargue  ' geometry={nodes.MDL_Emtapado_2.geometry} material={materials.MAT_Emtapado_02} />
